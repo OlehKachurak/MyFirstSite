@@ -6,76 +6,106 @@
 	<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-<header class="header"> 
+	<!--HEADER-->
+<header class="header" style="background-image: url(img/plane.jpg);"> 
      <nav class="page-navigation">
-        <!--назва сайта-->
-		<a href="file:///F:/MyFirstSite/index.html" id="siteName">JetAir</a>
-		<!--меню навігація-->
-		<a href="index">My trips</a> | <a href="index">Boarding passes</a> | <a href="index">
-  	          Infight products </a> | <a href="index"> Log in</a>
+		<!--назва сайта-->
+		<ul class="menu">
+		           <li class="logo"> <a href="file:///F:/MyFirstSite/index.html">JetAir</a></li>
+		<!--меню навігація--> 
+				   <li>|<a href="">Log in</a></li>
+				   <li>| <a href="">Infight products</a></li>
+				   <li> | <a href="">Boarding passes </a></li>
+				   <li>  <a href=""> My trips</a></li>
+		</ul>
     </nav>
 </header>
-  <nav>
-	  <a href="index.5">  Corona (COVID19) - Latest Updates and FAQs  
-	  </a>
-</nav>
+<!--NAVIGATION-->
+<marquee behavior ="scroll" direction = "right">
+	<a href="" id="navigation"> 
+		Corona (COVID19) - Latest Updates and FAQs  
+	 </a>
+</marquee>
+<!--MAIN-->  
 <article>
-	<section>
-		<h1>Flight</h1> <h1>Hotels/Hostels</h1>
+	<section id="main">
+		<h1 >Flight</h1> <h1>Hotels/Hostels</h1>
 		<form action="" method="get">
 			<input type="text" placeholder="from">
 			<input type="text" placeholder="to">
 			<button type="submit"> search </button>
 		</form>
 	</section>
-	<section >
-		<h1> Best offers</h1>
-		<figure>
-			<img src="img/barca.jpg" height="200" width="300">
-			<figcaption>
+	<section id="main2">
+		<h2> Best offers</h2>
+		<div id="offer1">
+		   <figure>
+			 <img src="img/barca.jpg" height="200" width="300">
+			  <figcaption>
 				<h4> from Lviv to Barcelona</h4> 
 				<p>Barcelona is one of the world's <br>
 					leading tourist, economic,<br>
-					 trade fair and cultural centres,<br>
-					  and its influence in commerce,<br>
+					trade fair and cultural centres,<br>
+				     and its influence in commerce,<br>
 					   education, entertainment, sports,<br>
-					    media, fashion, science....
+						media, fashion, science, and the<br>
+						 arts all contribute to its status<br>
+						  as one of the major global cities.<br>
+						   It is a major cultural and economic<br>
+						    centre in southwestern Europe
 
                 </p>
-                <p>25$</p>
+                <p>Price 25$</p>
 			</figcaption>
-		</figure>
+		  </figure>
+		</div>
+		<div id="offer2">
 		<figure>
 			<img src="img/york.jpg" height="200" width="300">
 			<figcaption>
 				<h4>from London to York</h4>
 				<p>
-					﻿York is a cathedral city and unitary<br>
+					York is a cathedral city and unitary<br>
 					 authority area in North Yorkshire,<br>
 					  England. The population of the council<br>
 					   area which includes nearby villages<br>
-					    was 208,200 as of 2017....
+						was 208,200 as of 2017and the population<br>
+						 of the urban area was 153,717 at the 2011 <br>
+						 census. Located at the confluence of the<br>
+						  Rivers Ouse and Foss, it is the county town<br>
+						   of the historic county of Yorkshire.<br>
+						   The city is known for its famous historical...
+							
 				</p>
-				<p>11$</p>
+				<p>Price 11$</p>
 			</figcaption>
 		</figure>
+		</div>
+		<div id="offer3">
 		<figure >
 			<img src="img/wroclaw.jpg" height="200" width="300" >
 			<figcaption>
 				<h4>from Kiyv to Wroclaw</h4>
-				<p
-				>Wrocław is the historical capital<br>
+				<p>Wrocław is the historical capital<br>
 				 of Silesia and Lower Silesia. Today,<br>
 				  it is the capital of the Lower<br>
-				   Silesian Voivodeship. The history of the city </p>
-				   <p> 13$</p>
+				   Silesian Voivodeship. The history<br>
+					of the city dates back over a thousand<br>
+					 years, and its long heritage combines<br>
+					  almost all the religions and cultures<br>
+					   of Europe.[5] At various times, it has<br>
+						been part of the Kingdom of Poland<br>
+						 the Kingdom of Bohemia, the Kingdom of Hungary..
+				</p>
+				   <p>Preice 13$</p>
 			</figcaption>
 		</figure>
+		</div>
 	</section>
 	<aside>
-		<h1>
+		<h2 class="our-partners">
 			Our partners
-		</h1>
+		</h2>
 		<a href="http://skyscanner.com">
 			<img src="img/skyscanner.gif" height="200" width="300">
 		</a>
