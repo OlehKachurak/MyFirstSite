@@ -1,4 +1,5 @@
 btn.addEventListener('click', function(e) {
+    
     var bill = document.getElementById('bill').value;
     var tip = document.getElementById('tip').value;
     var numb = document.getElementById('numb').value;

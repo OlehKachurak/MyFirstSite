@@ -11,7 +11,7 @@
      <nav class="page-navigation">
 		<!--назва сайта-->
 		<ul class="menu">
-		           <li class="logo"> <a href="file:///F:/MyFirstSite/index.html">JetAir</a></li>
+		           <li class="logo"> <a href="file:///F:/MyFirstSite/index.html" id="jet" >JetAir</a></li>
 		<!--меню навігація--> 
 				   <li>|<a href="">Log in</a></li>
 				   <li>| <a href="">Infight products</a></li>
@@ -22,7 +22,7 @@
 </header>
 <!--NAVIGATION-->
 <marquee behavior ="scroll" direction = "right">
-	<a href="" id="navigation"> 
+	<a href="index1.html" id="navigation"> 
 		Corona (COVID19) - Latest Updates and FAQs  
 	 </a>
 </marquee>
@@ -31,8 +31,8 @@
 	<section id="main">
 		<h1 >Flight</h1> <h1>Hotels/Hostels</h1>
 		<form action="" method="get">
-			<input type="text" placeholder="from">
-			<input type="text" placeholder="to">
+			<input type="text" placeholder="from" onfocus="myFunction(this)">
+			<input type="text" placeholder="to" onfocus="myFunction(this)>
 			<button type="submit"> search </button>
 		</form>
 	</section>
@@ -124,6 +124,6 @@
 		2020 © JET DAC. All rights reserved.
 	</p>
 </footer>
-
+<script src="scripts/script.js"></script>
 </body>
 </html>
